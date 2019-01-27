@@ -16,6 +16,19 @@ code {
 div#root {
 	background-color: #e5cf3c5e;
 }
-ol.breadcrumb {
+ol.breadcrumb, div.navbar-row {
 	background-color: rgb(254, 133, 133);
+}
+div.navbar-row {
+	border-radius: 10px;
+}
+a {
+	color: white;
+}
+li {
+	padding: 5px;
+}
+h2 {
+	font-size: 2.1em;
+	text-align: center;
 }
