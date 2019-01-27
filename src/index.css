@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+div#root {
+	background-color: #e5cf3c5e;
+}
+ol.breadcrumb {
+	background-color: rgb(254, 133, 133);
+}
