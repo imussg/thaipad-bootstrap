@@ -24,7 +24,9 @@ export default class Homepage extends React.Component {
 			</Row>
 			<Row className="scroll-pics-row">
 				<Col xs={6}>
-					<Image className="" src={brusselSprout} responsive />
+					<h1>
+						<Label bsStyle="primary">Something will soon go here</Label>
+					</h1>
 				</Col>
 			</Row>
 		</Grid> );

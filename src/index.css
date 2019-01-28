@@ -6,15 +6,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('images/bar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-div#root {
-	background-color: #4343425e;
+/*div#root {
+  opacity: .5;
+  
+}*/
+/*div#root:hover {
+  opacity: 1;
+}*/
+div.container {
+  background-image: none;
+  background-color: #febc8587;
 }
 ol.breadcrumb, div.navbar-row {
 	background-color: rgb(254, 133, 133);
@@ -35,4 +46,7 @@ h2 {
 a:hover{
   text-decoration: none;
   color: red;
+}
+div.col-xs-6 {
+  margin-bottom: 100px;
 }
