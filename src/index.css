@@ -6,7 +6,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF9D2;
   background-image: url('images/bar.jpg');
+  /*opacity: .5;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -16,16 +18,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/*div#root {
-  opacity: .5;
-  
-}*/
+div#root {
+  background-image: none;
+  background-color: #00000070;
+}
 /*div#root:hover {
   opacity: 1;
 }*/
 div.container {
-  background-image: none;
-  background-color: #febc8587;
+  
+  /*margin-bottom: 100px;*/
 }
 ol.breadcrumb, div.navbar-row {
 	background-color: rgb(254, 133, 133);
@@ -47,6 +49,15 @@ a:hover{
   text-decoration: none;
   color: red;
 }
-div.col-xs-6 {
+/*div.col-xs-6 {
   margin-bottom: 100px;
+}*/
+.homepage-icon {
+  position: relative;
+  left: 40%;
+}
+img.homepage-icon:hover {
+  width: 20em;
+  opacity: .5;
+  left: 37%;
 }
