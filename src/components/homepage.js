@@ -4,22 +4,34 @@ import { Grid, Row, Col, Breadcrumb, Image, Label, Glyphicon } from 'react-boots
 import Topnav from './topnav';
 
 const thaipadLogo = require('../images/thaipad_logo.png');
-const togoIcon = require('../images/togo-icon.png');
-const brusselSprout = require('../images/brussel-sprout.jpg');
+const bar = require('../images/bar.jpg');
+const sukhothai = require('../images/sukhothai.jpg');
 
 export default class Homepage extends React.Component {
 	
 	constructor(props) {
 		super(props);
+		// changes the background on an interval combined with some jQuery
+		// setInterval(function() {
+		// 	const backgrounds = [
+		const barImg = <Image className="background-image" src={bar} fluid />;
+		const sukImg = <Image className="background-image" src={sukhothai} fluid />;
+		// 		<Image className="background-image" src={bar} fluid />
+		// 	];
+
+		// }, 10000);
 		this.state = {
 			hover: false
 		}
+		// $('body').html(`<body style="background-image: url(${bar});">`);
 	}
 
 	render() {
 		return (<Grid>
-			<Row className="justify-content-md-center">
-				{this.hoverState()}
+			<Row className="justify-content-center">
+				<Col md="auto" >
+					<Image className="homepage-icon" src={thaipadLogo} circle />
+				</Col>
 			</Row>
 		</Grid> );
 	}

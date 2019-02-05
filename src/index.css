@@ -7,11 +7,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFF9D2;
-  background-image: url('images/bar.jpg');
+  background-image: url('images/sukhothai.jpg');
+  width: 100%;
+  /*max-height: 100%;
+  max-width: 100%;*/
   /*opacity: .5;*/
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: 100%;
+  /*background-attachment: fixed;*/
 }
 
 code {
