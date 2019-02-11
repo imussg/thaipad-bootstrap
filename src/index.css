@@ -7,12 +7,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFF9D2;
-  background-image: url('images/sukhothai.jpg');
-  width: 100%;
+  /*background-image: url('images/sukhothai.jpg');*/
+  /*width: 100%;
   background-repeat: no-repeat;
   background-size: cover cover;
-  background-position: center;
+  background-position: center;*/
   /*background-attachment: fixed;*/
+}
+body:after {
+  content: "";
+  background: url('images/bar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 code {
@@ -59,7 +72,7 @@ div.col-md-auto {
 }
 img.homepage-icon {
   width: 15em;
-  transition: width 2s;/*, height 2s;, left 1s;*/
+  transition: width .5s;/*, height 2s;, left 1s;*/
 }
 img.homepage-icon:hover {
   width: 20em;
