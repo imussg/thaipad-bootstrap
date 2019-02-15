@@ -27,13 +27,15 @@ export default class Homepage extends React.Component {
 	}
 
 	render() {
-		return (<Grid>
-			<Row className="justify-content-center">
-				<Col md="auto" >
-					<Image className="homepage-icon" src={thaipadLogo} circle />
-				</Col>
-			</Row>
-		</Grid> );
+		return (
+			
+			<Grid>
+				<Row className="justify-content-center">
+					<Col md="auto" >
+						<Image className="homepage-icon" src={thaipadLogo} circle />
+					</Col>
+				</Row>
+			</Grid> );
 	}
 
 	hoverState() {

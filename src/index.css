@@ -34,7 +34,7 @@ code {
 }
 div#root {
   background-image: none;
-  background-color: #00000070;
+  /*background-color: #00000070;*/
 }
 /*div#root:hover {
   opacity: 1;
