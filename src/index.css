@@ -2,7 +2,7 @@ body {
   margin: auto;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Abel",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,18 +39,24 @@ div#root {
 /*div#root:hover {
   opacity: 1;
 }*/
-div.container {
-  
-  /*margin-bottom: 100px;*/
+.container {
+  margin-right: 0;
+  margin-left: 0;
+}
+.container:after {
+  width: 100%;
 }
 ol.breadcrumb, div.navbar-row {
-	background-color: rgb(254, 133, 133);
+	background-color: #C9A916;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 div.navbar-row {
-	border-radius: 10px;
+	width: 100%;
 }
 a {
 	color: white;
+  transition: color .3s;
 }
 li {
 	padding: 5px;
@@ -61,22 +67,32 @@ h2 {
 }
 a:hover{
   text-decoration: none;
-  color: red;
+  color: #c5161d;
 }
-/*div.col-xs-6 {
-  margin-bottom: 100px;
-}*/
+img.nav-icon {
+  
+  width: 100%;
+  transition: width .4s;
+}
+img.nav-icon:hover {
+  width: 110%;
+}
 div.col-md-auto {
   margin: auto;
   text-align: center;
 }
+img.nav-icon {
+  margin-top: 10px;
+}
 img.homepage-icon {
+  left: 0;
+  top: 0;
+  position: fixed;
+  padding: 15px;
+  background-color: white;
   width: 15em;
-  transition: width .5s;/*, height 2s;, left 1s;*/
+  transition: width .5s;
 }
 img.homepage-icon:hover {
   width: 20em;
-  /*height: 20em;*/
-  /*opacity: .5;*/
-  /*left: 37%;*/
 }
