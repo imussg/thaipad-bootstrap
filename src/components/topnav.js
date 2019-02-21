@@ -15,7 +15,7 @@ export default class Topnav extends React.Component {
 		</Col>
 	*/
 	render() {
-		return ( <Row className="navbar-row">
+		return ( <Row className="justify-content-right navbar-row">
 			<Breadcrumb>
 				<Col xs={1}>
 					<Breadcrumb.Item bsSize="large" href="#">

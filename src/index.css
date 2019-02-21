@@ -39,20 +39,24 @@ div#root {
 /*div#root:hover {
   opacity: 1;
 }*/
-.container {
+div.container {
   margin-right: 0;
   margin-left: 0;
+  padding: 0;
+  width: 100%;
 }
 .container:after {
-  width: 100%;
+  /*width: 100%;*/
 }
 ol.breadcrumb, div.navbar-row {
 	background-color: #C9A916;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  /*text-align: right;*/
 }
 div.navbar-row {
 	width: 100%;
+  margin: 0;
 }
 a {
 	color: white;
@@ -70,7 +74,6 @@ a:hover{
   color: #c5161d;
 }
 img.nav-icon {
-  
   width: 100%;
   transition: width .4s;
 }
